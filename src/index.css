@@ -1,0 +1,30 @@
+:root {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+.header {
+  background-color: #f55a5a;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 1px 0px 5px black;
+}
+.headerTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+  text-shadow: 1px 0px 5px black;
+}
+.headerImg {
+  width: 24px;
+  height: 24px;
+}
