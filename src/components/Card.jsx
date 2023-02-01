@@ -7,7 +7,7 @@ export default function Card(props) {
       <img className="cardImg" src={props.imageUrl}></img>
       <div className="cardBody">
         <p className="cardloc"><img src="Images/locationicon.png"></img> {props.location}</p>
-        <h2 className="cardTitle">{props.title}</h2>
+        <h2 className="y">{props.title}</h2>
         <p className="cardDate">{props.startDate} - {props.endDate}</p>
         <p className="cardDec">{props.description}</p>
       </div>
