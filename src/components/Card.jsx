@@ -6,10 +6,10 @@ export default function Card(props) {
     <div className="card">
       <img className="cardImg" src={props.imageUrl}></img>
       <div className="cardBody">
-        <p>{props.location}</p>
+        <p className="cardloc"><img src="Images/locationicon.png"></img> {props.location}</p>
         <h2 className="cardTitle">{props.title}</h2>
-        <p>{props.startDate} - {props.endDate}</p>
-        <p>{props.description}</p>
+        <p className="cardDate">{props.startDate} - {props.endDate}</p>
+        <p className="cardDec">{props.description}</p>
       </div>
     </div>
   );

@@ -52,12 +52,25 @@ body {
   flex-direction: column;
   flex: 2 1 0;
 }
-.cardBody > p {
-  margin: 0px;
+.cardloc {
+  margin: 0;
   font-weight: 400;
   font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
 }
 .cardTitle {
   margin: 0;
-  
+  font-weight: 700;
+  font-size: 25px;
+}
+.cardDate {
+  margin: 0;
+  font-weight: 700;
+  font-size: 10.24px;
+}
+.cardDec {
+  font-weight: 400;
+  font-size: 10.24px;
+  margin: 0;
 }
